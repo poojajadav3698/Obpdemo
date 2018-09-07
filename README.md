@@ -16,3 +16,13 @@ Add in composer.json,
         "obpdemo/datetime": "dev-master"
     },
 ```
+
+Add Service Provider to `config/app.php` in `providers` section
+```php
+obpdemo\datetime\DatetimeServiceProvider::class,
+```
+
+Update your composer :
+```
+composer update
+```
