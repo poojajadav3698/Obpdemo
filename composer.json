@@ -1,0 +1,21 @@
+{
+    "name": "adminobp/obpdemo",
+    "description": "demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pooja",
+            "email": "pooja.optimumbrew@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Obp\\Obpdemo ": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "Illuminate/support":"~5"
+    }
+}
+
