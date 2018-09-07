@@ -3,7 +3,16 @@ Demo for current time
 
 Install (Laravel)
 -----------------
-Install via composer
+Add in composer.json,
 ```
-composer require rap2hpoutre/laravel-log-viewer
+"repositories": {
+        "repo-name": {
+            "type": "vcs",
+            "url": "https://github.com/poojajadav3698/current-datetime"
+        }
+    },
+    "require": {
+        ...
+        "obpdemo/datetime": "dev-master"
+    },
 ```
