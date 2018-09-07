@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Obp\\Obpdemo ": "src/"
+            "Obp\\Obpdemo\\": "src/"
         }
     },
     "minimum-stability": "dev",
