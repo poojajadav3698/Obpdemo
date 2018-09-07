@@ -13,7 +13,7 @@
             "Obp\\Obpdemo\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "Illuminate/support":"~5"
     }
